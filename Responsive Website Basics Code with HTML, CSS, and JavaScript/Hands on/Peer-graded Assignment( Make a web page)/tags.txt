@@ -1,0 +1,16 @@
+<TAGS>
+html
+head
+body
+h1,h3
+ol
+ul
+p
+a
+img
+hr
+
+
+
+&ENTITY
+1. &nbsp;  :  non breaking space

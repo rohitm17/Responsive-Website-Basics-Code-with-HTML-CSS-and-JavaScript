@@ -1,0 +1,20 @@
+
+h1{
+     /** blue backgroung color */
+    background: blue;
+     /** this will align text in center */
+    text-align: center;
+     /** this will set color of text to white */
+    color:white;
+     /** this will make text tilted or italic */
+    font-style: italic;
+
+}
+h1:hover{
+    background: white;
+    color: #000;
+    font: sans-serif;
+}
+body{
+    background: #000;
+}
