@@ -1,0 +1,53 @@
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(331deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #125be9 100%);
+}
+h1:hover{
+    color: red;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+input,textarea,select{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+label{
+    display:block;
+    width: 250px;
+  border: 5px solid #008000;
+  border-radius: 0.5em;
+  padding: 5px;
+  margin: 12px;
+  background-color: aliceblue;
+}
+input{
+    display:block;   
+  border-color: darkcyan;
+  padding: 5px;
+  margin: 22px;
+}
+input[type="checkbox"]:checked + label{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+    background-color: aquamarine;
+}
+fieldset{
+    display: block;
+    width: 500px;
+}
+legend{
+    color: white;
+    size: 100px;
+}
+#name, #phone, #mail, #day{
+    display: inline-block;
+}
